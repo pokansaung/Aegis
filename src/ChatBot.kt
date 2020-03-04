@@ -1,5 +1,4 @@
 
-
 class ChatBot {
 
     fun greet() {
@@ -42,12 +41,12 @@ class ChatBot {
 
         do {
             val userAns: Int = readLine()!!.toInt()
-            if (userAns != 4) {
+            if (userAns != 7) {
                 println("Please, try again")
             } else {
                 println("Congratulation!! You are correct.")
             }
-        } while (userAns !=4)
+        } while (userAns !=7)
     }
 }
 
